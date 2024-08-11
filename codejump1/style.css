@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+.range {
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+header {
+  height: 60px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.header__photo-image{
+  display: block;
+  width: 100px;
+}
+
+.header__item-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero__image {
+  width: 100vw;
+  object-fit: cover;
+}
+
+
+.about {
+  margin-top: 80px;
+}
+
+.headline {
+  border-bottom: solid 1px #000;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.about-media {
+  display: block;
+  margin-top: 40px;
+}
+
+.about-media__image {
+  display: block;
+  width: 100px;
+  aspect-ratio: 100/100;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about-media__writing {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.about-media__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-media__text {
+  margin-top: 10px;
+}
+
+.bicycle {
+  margin-top: 80px;
+}
+
+.bicycle-list {
+  list-style: none;
+  display: flex;
+  gap: 2%;
+  margin-top: 40px;
+}
+
+.bicycle-list__item {
+  width: 32%;
+}
+
+.bicycle-list__item-writing {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bicycle-list__item-writing-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bicycle-list__item-writing-text {
+  margin-top: 10px;
+}
+
+.bicycle-list__item-image {
+  width: 100%;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.footer__inner {
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .range {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .about-media {
+    display: block;
+  }
+
+  .about-media__image {
+    margin: 0 auto;
+  }
+
+  .about-media__title {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .bicycle__list {
+    display: block;
+  }
+
+  .bicycle-list__item {
+    width: 100%;
+  }
+}
