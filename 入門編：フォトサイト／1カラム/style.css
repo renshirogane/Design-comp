@@ -1,0 +1,163 @@
+body {
+  background-color: #f4f9ff;
+  color: #333;
+  font-size: 14px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-inner {
+  margin-top: 60px;
+}
+
+.site-title {
+  width: 160px;
+  margin-bottom: 15px;
+  line-height: 1px;
+  display: block;
+}
+
+.main-visual {
+  margin-bottom: 60px;
+}
+
+.index {
+  background-color: #fff;
+  padding: 30px 0;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-inner, .detail-inner, .footer-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.index-list {
+  margin-left:20px;
+
+}
+
+.index-list li {
+  margin-bottom: 20px;
+}
+
+.index-list li:last-child {
+  margin-bottom: 0;
+}
+
+.detail {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contents img {
+  width: 270px;
+  margin-right: 60px;
+}
+
+.detail-text {
+  font-size: 14px;
+  width: 270px;
+  margin-bottom: 20px !important ;
+}
+
+.detail-text .section-title {
+  margin-bottom: 20px !important;
+}
+
+.contents p {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.contents dl {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  margin-bottom: 25px;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+}
+
+.contents dt {
+  width: 25%;
+}
+
+.contents dd {
+  width: 75%;
+}
+
+.contents .link {
+  color: #333;
+}
+
+.contents .link:hover {
+  opacity: 0.8;
+}
+
+footer {
+  font-size: 10px;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 0 10px;
+  }
+  .header-inner,
+  .index-inner,
+  .detail-inner,
+  .footer-inner {
+    padding: 0 20px; 
+    box-sizing: border-box;
+  }
+
+  .main-visual {
+    padding: 0 10px;
+  }
+
+  .contents {
+    flex-direction: column;
+  }
+
+  .contents .img {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+}
